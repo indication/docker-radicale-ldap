@@ -102,7 +102,7 @@ ldap_filter = (objectClass=person)
 ldap_binddn = cn=sync,cn=Users,dc=samba,dc=dom
 
 # LDAP password for initial login, used with ldap_binddn
-ldap_password = Sync123!
+ldap_password = password!changethis
 
 # LDAP scope of the search
 ldap_scope = LEVEL
